@@ -50,7 +50,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet("admin-only")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Superman")]
     public IActionResult AdminOnly()
     {
         return Ok(new AdminOnlyResponse { Message = "Only Admin can access this API." });
