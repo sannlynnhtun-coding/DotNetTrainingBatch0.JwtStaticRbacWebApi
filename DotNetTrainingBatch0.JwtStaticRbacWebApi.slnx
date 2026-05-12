@@ -3,5 +3,5 @@
     <File Path="README.md" />
   </Folder>
   <Project Path="DotNetTrainingBatch0.Database/DotNetTrainingBatch0.Database.csproj" />
-  <Project Path="DotNetTrainingBatch0.JwtWebApi/DotNetTrainingBatch0.JwtWebApi.csproj" />
+  <Project Path="DotNetTrainingBatch0.JwtStaticRbacWebApi/DotNetTrainingBatch0.JwtStaticRbacWebApi.csproj" />
 </Solution>
